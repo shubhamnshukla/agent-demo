@@ -1,7 +1,7 @@
 from app.agent import agent
 
 def main() -> None:
-    result = agent.run("What pricing plans does Luumen offer?")
+    result = agent.run("Hi! How are you doing today?")
     print(result.content)
     agent.serve(enable_server=True)
 
